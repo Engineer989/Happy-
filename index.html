@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digital Poster — Buy & Pay via UPI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Digital Poster</h1>
+    <p>Buy high-quality digital posters. Pay via UPI to contact number: <strong>7410514965</strong></p>
+  </header>
+
+  <main>
+    <section class="product">
+      <img src="https://via.placeholder.com/600x800?text=Digital+Poster" alt="Digital Poster">
+      <div class="product-info">
+        <h2>Exclusive Digital Poster</h2>
+        <p class="price">Price: <strong>₹199</strong></p>
+        <div class="upi">
+          <h3>Pay via UPI</h3>
+          <p>UPI / Contact: <strong>7410514965</strong></p>
+          <p>Tap to pay (mobile) or scan QR:</p>
+          <a id="upiLink" href="#" class="pay-btn">Open UPI App</a>
+          <div class="qr">
+            <img id="qrImg" alt="UPI QR">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>Contact / Order Form</h3>
+      <form id="contactForm">
+        <label>Name<br><input type="text" name="name" required></label>
+        <label>Email id<br><input type="email" name="email" required></label>
+        <label>Mobile Number (with country code)<br><input type="tel" name="mobile" placeholder="+91xxxxxxxxxx" required></label>
+        <label>Full Address<br><textarea name="address" rows="3" required></textarea></label>
+        <label>District<br><input type="text" name="district" required></label>
+        <label>State<br><input type="text" name="state" required></label>
+        <div class="form-actions">
+          <button type="submit">Submit Order Details</button>
+          <button type="button" id="paidBtn">I've Paid — Notify Seller</button>
+        </div>
+      </form>
+      <div id="formMsg" class="msg"></div>
+    </section>
+
+    <section class="visitors">
+      <h3>Visitor Counts</h3>
+      <p>Daily visitors (this browser): <strong id="dailyCount">0</strong></p>
+      <p>Monthly visitors (this browser): <strong id="monthlyCount">0</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact for payments & queries: <strong>7410514965</strong> (WhatsApp)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b74de"/>
+      <stop offset="100%" stop-color="#7bd389"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <rect x="60" y="60" width="1080" height="1680" rx="24" fill="url(#g)" opacity="0.12"/>
+  <g font-family="Georgia, serif" fill="#0b2b4a">
+    <text x="120" y="260" font-size="72" font-weight="700">Exclusive Digital Poster</text>
+    <text x="120" y="360" font-size="36">High-resolution artwork — instant download</text>
+  </g>
+  <g transform="translate(120,460)">
+    <rect width="960" height="960" rx="12" fill="#fff" stroke="#e6edf6"/>
+    <text x="40" y="120" font-size="40" fill="#334862">Your artwork here</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0b2b4a">
+    <text x="120" y="1500" font-size="36">Price: ₹199</text>
+    <text x="120" y="1560" font-size="20">Contact / UPI: 7410514965</text>
+  </g>
+</svg>
